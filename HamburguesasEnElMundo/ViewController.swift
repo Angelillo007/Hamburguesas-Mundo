@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var TipoHamburguesa: UILabel!
+    @IBOutlet weak var MuestraPais: UILabel!
+    let colores =  Colores ()
+    let hamburguesas = ColeccionDeHamburguesas ()
+    let pais = ColeccionDePaises ()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +28,18 @@ class ViewController: UIViewController {
     }
 
 
+    
+    @IBAction func Pulsa(sender: AnyObject) {
+    
+        
+        TipoHamburguesa.text = hamburguesas.obtenHamburguesa()
+        MuestraPais.text = pais.obtenPais()
+        
+        let cambiadecolor = colores.obtenColores()
+        view.backgroundColor = cambiadecolor
+        view.tintColor = cambiadecolor
+        
+    }
+    
 }
 
