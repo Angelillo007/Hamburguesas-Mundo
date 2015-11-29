@@ -32,6 +32,18 @@ class ColeccionDePaises {
         }
     }
 
+
+class ValorHamburguesas {
+    let precio: [Int] = [2000, 3300, 4987, 2001, 3214, 5444, 6784, 4888]
+    
+    func obtenPrecio () -> Int {
+        
+        let devuelvePrecio = Int (arc4random ()) % precio.count
+            return precio [devuelvePrecio]
+    
+    }
+}
+
     struct Colores {
         let colores = [
         UIColor(red:210/255.0, green: 90/255.0, blue: 45/255.0, alpha: 1),

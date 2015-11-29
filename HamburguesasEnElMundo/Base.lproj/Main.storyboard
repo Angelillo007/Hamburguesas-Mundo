@@ -43,23 +43,39 @@
                                     <action selector="Pulsa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wHg-gf-O3a"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMP-5U-wl2">
+                                <rect key="frame" x="276" y="352" width="49" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.60759228187919467" green="0.62384647651006708" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.60759228187919467" green="0.62384647651006708" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="IZ8-wY-pew" firstAttribute="centerX" secondItem="b8J-Sq-Kan" secondAttribute="centerX" id="3gA-4l-rza"/>
+                            <constraint firstItem="TMP-5U-wl2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4tv-wM-ZRe"/>
+                            <constraint firstItem="IZ8-wY-pew" firstAttribute="centerX" secondItem="b8J-Sq-Kan" secondAttribute="centerX" id="7tN-6b-pTQ"/>
+                            <constraint firstItem="b8J-Sq-Kan" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ArX-NG-Eq5"/>
+                            <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IJd-dM-TY4"/>
                             <constraint firstItem="IZ8-wY-pew" firstAttribute="width" secondItem="b8J-Sq-Kan" secondAttribute="width" id="Jpc-jU-ARA"/>
                             <constraint firstItem="b8J-Sq-Kan" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LM0-cC-EPJ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IZ8-wY-pew" secondAttribute="bottom" constant="159" id="LtT-sK-BZf"/>
+                            <constraint firstItem="TMP-5U-wl2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="332" id="OtZ-Ng-Rev"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="top" secondItem="b8J-Sq-Kan" secondAttribute="bottom" constant="38" id="PxZ-Pe-TrA"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="width" secondItem="b8J-Sq-Kan" secondAttribute="width" id="SEj-TV-Xat"/>
+                            <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="centerX" secondItem="b8J-Sq-Kan" secondAttribute="centerX" id="T3A-Bk-On3"/>
                             <constraint firstItem="IZ8-wY-pew" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zhu-v2-sgW"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="width" secondItem="b8J-Sq-Kan" secondAttribute="height" multiplier="172:21" id="eEM-qy-Iaq"/>
                             <constraint firstItem="IZ8-wY-pew" firstAttribute="centerY" secondItem="b8J-Sq-Kan" secondAttribute="centerY" id="f8g-wv-Lun"/>
                             <constraint firstItem="b8J-Sq-Kan" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="101" id="gga-8W-WH8"/>
+                            <constraint firstItem="IZ8-wY-pew" firstAttribute="top" secondItem="TMP-5U-wl2" secondAttribute="bottom" constant="38" id="gtc-KB-FMh"/>
+                            <constraint firstItem="TMP-5U-wl2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jBa-7j-13w"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="centerX" secondItem="b8J-Sq-Kan" secondAttribute="centerX" id="kCa-TY-oOi"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kwL-1Z-HdV"/>
+                            <constraint firstItem="IZ8-wY-pew" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="liL-gS-H3z"/>
+                            <constraint firstItem="TMP-5U-wl2" firstAttribute="centerX" secondItem="b8J-Sq-Kan" secondAttribute="centerX" id="p4n-vI-9jB"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="centerY" secondItem="b8J-Sq-Kan" secondAttribute="centerY" id="wMT-mA-yqf"/>
                             <constraint firstItem="6Ku-Ai-Qg3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="272" id="yJ5-5u-tRU"/>
                         </constraints>
@@ -73,6 +89,7 @@
                     </view>
                     <connections>
                         <outlet property="MuestraPais" destination="6Ku-Ai-Qg3" id="I4s-pe-iU0"/>
+                        <outlet property="MuestraPrecio" destination="TMP-5U-wl2" id="lBi-RZ-Reg"/>
                         <outlet property="TipoHamburguesa" destination="b8J-Sq-Kan" id="iWl-FV-RnB"/>
                     </connections>
                 </viewController>

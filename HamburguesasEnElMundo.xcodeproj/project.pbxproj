@@ -292,6 +292,7 @@
 				10B5467F1C0A262600C733BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
