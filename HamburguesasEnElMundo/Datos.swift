@@ -34,7 +34,7 @@ class ColeccionDePaises {
 
 
 class ValorHamburguesas {
-    let precio: [Int] = [2000, 3300, 4987, 2001, 3214, 5444, 6784, 4888]
+    let precio: [Int] = [2000, 3300, 4987, 2001, 3214, 5444, 6784, 4888, 2003, 4800, 5000, 6634, 34567, 334567, 9821, 3456, 897, 2098, 9874, 7862, 9081]
     
     func obtenPrecio () -> Int {
         
